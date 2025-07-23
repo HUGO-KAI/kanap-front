@@ -7,7 +7,7 @@
 */
 
 
-const urlProducts = `http://localhost:3000/api/products`;
+const urlProducts = `https://kanap-back-pc7z.onrender.com/api/products`;
 container = document.getElementById("cart__items");
 let localProducts = JSON.parse(localStorage.getItem("localProducts"));
 let allProducts = [];

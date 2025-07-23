@@ -8,7 +8,7 @@ let url = new URL(window.location.href);
 const productId = url.searchParams.get("id");
 const itemQuantity = document.getElementById("quantity");
 const productOption = document.getElementById("colors");
-const urlProduct = `http://localhost:3000/api/products/${productId}`;
+const urlProduct = `https://kanap-back-pc7z.onrender.com/api/products/${productId}`;
 init(urlProduct);
 
 /*Récupérer les données du produit selectionné */

@@ -2,7 +2,7 @@
 AFFICHER LES PRODUITS SUR LA PAGE D'ACCUEIL ET SES INTERACTIONS
 */
 
-const urlProducts = `http://localhost:3000/api/products`;
+const urlProducts = `https://kanap-back-pc7z.onrender.com/api/products`;
 init(urlProducts);
 
 /* Récupérer la liste de tous les produits*/
